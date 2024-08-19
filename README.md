@@ -25,5 +25,5 @@ python ./Script/data_preprocess.py
 ### Model Training and Evaluation
 Run *GRAPE* with 
 ```
-python ./GRAPE/recbole/main.py --dataset='Green_Food_Rec'
+python ./GRAPE/recbole/main.py --dataset="Green_Food_Rec" --hidden_size=64 --config_files="configs/Green_Food_Rec.yaml"
 ```
