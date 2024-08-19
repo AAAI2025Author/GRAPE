@@ -25,5 +25,5 @@ python ./Script/data_preprocess.py
 ### Model Training and Evaluation
 Run *GRAPE* with 
 ```
-python ./GRAPE/recbole/quick_start.py
+python ./GRAPE/recbole/main.py --dataset='Green_Food_Rec'
 ```
